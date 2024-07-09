@@ -1,4 +1,13 @@
-  - npm install
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+   
+    commands:
+        # install npm
+        - npm install
        
   build:
     commands:
